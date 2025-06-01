@@ -1,0 +1,63 @@
+O que é controle de versão?
+é um sistema que permite rastrear e gerenciar as alterações em um arquivo ou conjunto de arquivos ao longo do tempo, facilitando a colaboração entre equipes e o desenvolvimento de software.
+Uma técnica que ajuda a gerenciar o código-fonte de uma aplicação;
+Registrando todas as modificações de código, podendo também reverter as mesmas;
+Criar versões de um software em diferentes estágios, podendo alterar facilmente entre elas;
+Cada membro da equipe pode trabalhar em uma versão diferente;
+Há ferramentas para trabalhar controle de versão como: GIT e SVN
+
+O que é GIT?
+O sistema de controle de versão mais utilizado do mundo atualmente;
+O git é baseado em repositórios, que contêm todas as versões do código e também as cópias de cada desenvolvedor;
+Todas as operações do git são otimizadas para ter alto desempenho;
+Todos os objetos do git são protegidos como criptografia para evitar alterações indevidas e maliciosas;
+O git é um projeto de código aberto;
+
+O que é um repositório?
+é onde o código será armazenado;
+na maioria das vezes cada projeto tem um repositório;
+quando criamos estamos iniciando um projeto;
+Pode ir para servidores especializados em gerenciar repôs, como: GitHub e Bitbucket;
+cada um dos desenvolvedores do time pode baixar o repositório e criar versões diferentes em sua máquina;
+
+O que é o GitHub?
+é um serviço para gerenciar repositórios, gratuito e amplamente utilizado;
+Podemos enviar nossos projetos para o GitHub e disponibilizá-lo para outros devs;
+O GitHub é gratuito tanto para projetos públicos como privados;
+
+Verificando mudanças no projeto
+Mudanças no projeto podem ser verificadas por: git status;
+
+Adicionando arquivos ao projeto
+Para adicionar arquivos novos a um projeto utilizados: git add;
+Podemos adicionar um arquivo específico como também diversos de uma vez só;
+
+
+Salvando alterações do projeto
+as alterações salvas do projeto são realizadas por: git commit;
+podemos commitar arquivos específicos ou vários de uma vez com a flag -a;
+é uma boa pratica enviar uma mensagem a cada commit, com as alterações que foram feitas;
+A mensagem pode ser adicionada com a flag -m;
+
+Enviando código ao repo remoto
+Quando finalizamos uma funcionalidade nova, enviamos o código ao repositório remoto, que é código-fonte;
+Esta ação é feita pelo git push;
+Após esta ação o código do servidor será atualizado baseando-se no código local enviado;
+
+Recebendo Mudanças
+Sincronização local é utilizado o git pull
+
+Clonando Repositórios
+Ato de baixar um repositório de um servidor remoto é chamado de clonar repositório;
+Para esta ação utilizamos git clone;
+Este comando é utilizado quando entramos em um novo projeto.
+
+Removendo arquivos do Repo
+Arquivos podem ser deletados da monitoração do git;
+O comando para deletar é git rm
+
+
+Histórico de Alterações
+Podemos acessar um log de modificações feitas no projeto;
+O comando para este recurso é git log;
+Você receberá uma informação dos commits realizados no projeto até então.
