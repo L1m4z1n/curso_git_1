@@ -67,3 +67,40 @@ Com o comando git mv podemos renomear um arquivo;
 O mesmo também pode ser movido para outra pasta;
 E isso fará com que este novo arquivo seja monitorado pelo git;
 O arquivo anterior é excluído;
+
+Desfazendo Alterações
+O arquivo modificado pode ser retornado ao estado original;
+O comando utilizado é o git checkout;
+Após a utilização do mesmo o arquivo sai do staging;
+
+Ignorando arquivos no projeto
+Uma técnica muito utilizada é ignorar arquivos do projeto;
+Devemos inserir um arquivo chamado .gitignore na raiz do projeto;
+Nele inserimos todos os arquivos que não devem entrar no versionamento;
+Isso é útil para arquivos gerados automaticamente ou arquivos que contêm informações sensíveis;
+
+Desfazendo todas as alterações
+Com o comando git reset podemos resetar as mudanças feitas;
+Geralmente é utilizado com a flag --hard;
+Todas as alterações commitadas e também as pendentes serão excluídas;
+
+O que é um branch?
+Branch é a forma que o git separa as versões dos projetos;
+Quando um projeto é criado ele inicia na branch master, estamos trabalhando nela até este ponto do curso;
+
+Criando e visualizando branches
+Para visualizar os branchs disponíveis basta digitar git branch;
+Para criar um branch você precisa utilizar o comando git branch <nome>;
+
+Deletando branches
+Podemos deletar um branch com a flag -d ou --delete;
+Não é comum deletar um branch, normalmente guardamos o histórico do trabalho;
+Se deleta geralmente quando ele foi criado errado.
+
+Mudando de branch
+Podemos mudar para outro branch utilizando o comando git checkout -b <nome>;
+
+Unindo Branches
+O código de dois branches distintos pode ser unido pelo comando git merge <nome>;
+Outro comando para a lista dos mais utilizados;
+Normalmente é por meio dele que recebemos as atualizações de outros devs;
