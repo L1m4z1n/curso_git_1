@@ -28,3 +28,9 @@ _Checkout, **Tela de Produto**, Catálogo, Home com banner_
  ### Imagem Externa
 
 ![Logo do PHP](img/https://www.google.com/imgres?q=imagem%20php&imgurl=https%3A%2F%2Fwww.damatatec.com.br%2Fwp-content%2Fuploads%2F2025%2F06%2Fphp_1.webp&imgrefurl=https%3A%2F%2Fwww.damatatec.com.br%2Fphp-solucoes-dinamicas-e-personalizadas-para-o-seu-negocio%2F&docid=5ZqDU-WXc2PxPM&tbnid=VpEYs8323CJe9M&vet=12ahUKEwi_oO69qdiPAxXfrJUCHXoUJsIQM3oECDIQAA..i&w=1920&h=650&hcb=2&ved=2ahUKEwi_oO69qdiPAxXfrJUCHXoUJsIQM3oECDIQAA)
+
+## Links Interessantes:
+
+[Google](https://www.google.com)
+
+![Logo PHP](img/https://www.google.com/imgres?q=imagem%20php&imgurl=https%3A%2F%2Fwww.damatatec.com.br%2Fwp-content%2Fuploads%2F2025%2F06%2Fphp_1.webp&imgrefurl=https%3A%2F%2Fwww.damatatec.com.br%2Fphp-solucoes-dinamicas-e-personalizadas-para-o-seu-negocio%2F&docid=5ZqDU-WXc2PxPM&tbnid=VpEYs8323CJe9M&vet=12ahUKEwi_oO69qdiPAxXfrJUCHXoUJsIQM3oECDIQAA..i&w=1920&h=650&hcb=2&ved=2ahUKEwi_oO69qdiPAxXfrJUCHXoUJsIQM3oECDIQAA)(https://www.github.com/l1m4z1n)
