@@ -67,3 +67,107 @@ Com o comando git mv podemos renomear um arquivo;
 O mesmo também pode ser movido para outra pasta;
 E isso fará com que este novo arquivo seja monitorado pelo git;
 O arquivo anterior é excluído;
+
+Utilizando o remote
+Com o git remote podemos fazer algumas ações como: adicionar um repo para trackear ou remover;
+Quando criamos um repo remoto, adicionamos ele ao git com git remote add origin <link>
+
+Trabalhando com submódulos
+Submódulo é a maneira que temos de possuir dois ou mais projetos em um só repositório;
+Podemos adicionar uma dependência ao nosso projeto atual, porem mantendo suas estruturas separadas;
+Para adicionar o submódulo utilizamos o comando git submodule add <repo>;
+Para verificar os submódulos o comando é gitmodule;
+
+Atualizando submódulo
+para atualizar um submódulo primeiro devemos commitar as mudanças;
+E para enviar para o repo do submódulo utilizamos git push --recurse--submodules=on-demand;
+
+Exibindo Informações 
+o comando git show nos dá diversas informações úteis;
+Ele nos dá as informações do branch atual e também seus commits;
+As modificações de arquivos entre cada commit também são exibidas;
+Podemos exibir as informações de tags também com: git show <tag>
+
+Exibindo diferenças
+o comando git diff serve para exibir as diferenças de um branch;
+quando utilizamos as diferenças do branch atual com o remoto serão exibidas no terminal;
+podemos também verificar a diferença entre arquivos: git diff <arquivo> <arquivo_b>;
+
+Log resumido
+O comando git shortlog nos dá um log resumido do projeto;
+cada commit será unido por nome do autor;
+podemos então saber quais commits foram enviados ao projeto e por quem;
+
+Limpando arquivos untracked
+O comando git clean vai verificar e limpar arquivos não estão sendo trackeados;
+Ou seja, todos que vocÊ não utilizou git add;
+Utilizado para arquivos que são gerados automaticamente, por exemplo, e atrapalham a visualização do que é realmente importante;
+
+A importância do commit
+O problema: commits sem sentido atrapalham o projeto;
+Precisamos padronizar os commits, para que o projeto cresça de forma saudável também no versionamento, isso ajuda em:
+Review do Pull Request;
+Melhoria dos log em git log;
+Manutenção do projeto(Voltar código, por exemplo);
+
+Boas mensagens de commit
+Separar assunto do corpo da mensagem;
+Assunto com no máximo 50 caracteres;
+Assunto com letra inicial maiúscula;
+Corpo com no máximo 72 caracteres;
+Explicar o por que e como do commit, e não como o código foi escrito;
+
+Criando repositório
+No GitHub inicializamos os repositórios, e temos algumas informações importantes para preencher, vamos vê-las em detalhes;
+Algumas delas são: Nome do repo,descrição,licença;
+Tudo poderá ser alterado ao longo do seu projeto, mas é interessante conhecer os detalhes das informações para configurar um projeto;
+
+A aba Code 
+Na aba Code teremos acesso a informações importantes, como o próprio código fonte;
+Podemos checar também uma documentação do projeto pelo Read.me
+
+A aba Issue
+Na aba Issue podemos criar tarefas ou possíveis bugs do projeto;
+interessante para a organização se manter ciente do que ainda precisa fazer ou corrigir;
+Normalmente há um padrão para a criação de novos issues;
+Podemos utilizar o Markdown no texto também(igual o README.md);
+A issue deve ter uma label e também um responsável;
+
+Markdown
+é uma forma de adicionar estilo a textos na web;
+O arquivo README.md aceita markdown;
+Você vai conseguir exibir: trechos de código, links, imagens e muito mais;
+Dando uma melhor experiência para o usuário nas suas documentações;
+
+Cabeçalhos
+Os cabeçalhos em markdown são determinados pelo simbolo #;
+Cabeçalhos são os famosos títulos ou headings do HTML;
+#=>H1,##=>H2,###=>H3 e assim por diante;
+
+Ênfase
+Temos símbolos que podem dar ênfase ao texto;
+Para escrever em negrito: **texto** ou __texto_;
+_
+Para escrever em itálico: *texto* ou _texto_;
+Combinando os dois: _um **texto** combinado_
+
+Listas
+Temos as listas ordenadas em não ordenadas em markdown;
+As listas não ordenadas começam os itens com: *item
+As listas ordenadas com: 1.Item;
+
+Imagens 
+é possivel inserir imagens em markdown também;
+Veja a sintaxe: ![Texto Alt](link imagem);
+A imagem pode estar no próprio repo ou ser externa;
+
+links
+Com o markdown podemos inserir links de forma fácil;
+A sintaxe é a seguinte: [Texto do link](link);
+Se for um link do GitHub pode inserir de forma direta:
+https://www.github.com
+
+Código - github
+Podemos inserir código no MarkDown também;
+A sintaxe é: ``` código ```
+Essa sintaxe é do markdown especial do GitHub;
