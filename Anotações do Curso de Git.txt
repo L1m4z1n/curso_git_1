@@ -150,3 +150,14 @@ Para escrever em negrito: **texto** ou __texto_;
 _
 Para escrever em itálico: *texto* ou _texto_;
 Combinando os dois: _um **texto** combinado_
+
+Listas
+Temos as listas ordenadas em não ordenadas em markdown;
+As listas não ordenadas começam os itens com: *item
+As listas ordenadas com: 1.Item;
+
+Imagens 
+é possivel inserir imagens em markdown também;
+Veja a sintaxe: ![Texto Alt](link imagem);
+A imagem pode estar no próprio repo ou ser externa;
+
