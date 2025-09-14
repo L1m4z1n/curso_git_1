@@ -1,6 +1,6 @@
 # E-commerce empresa X
-Vamos criar um e-commerce, para a empres X e blablabla
+Vamos criar um **e-commerce**, para a empres X e blablabla
 
 # Funcionalidade:
 
-Checkout, Tela de Produto, Catálogo, Home com banner
+_Checkout, **Tela de Produto**, Catálogo, Home com banner_
