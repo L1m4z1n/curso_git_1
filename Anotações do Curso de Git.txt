@@ -167,3 +167,7 @@ A sintaxe é a seguinte: [Texto do link](link);
 Se for um link do GitHub pode inserir de forma direta:
 https://www.github.com
 
+Código - github
+Podemos inserir código no MarkDown também;
+A sintaxe é: ``` código ```
+Essa sintaxe é do markdown especial do GitHub;
